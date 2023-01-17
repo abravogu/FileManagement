@@ -7,8 +7,8 @@
     <ProjectGuid>{1CF303B7-0FFC-4E0E-8C24-AE3D13CB69B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NttDataFileManagamen.DataAccess.Repository</RootNamespace>
-    <AssemblyName>NttDataFileManagamen.DataAccess.Repository</AssemblyName>
+    <RootNamespace>NttDataFileManagemen.DataAccess.Repository</RootNamespace>
+    <AssemblyName>NttDataFileManagemen.DataAccess.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

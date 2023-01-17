@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Common Tier", "4 - Comm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttDataFileManagement.Common.Model", "NttDataFileManagement.Common.Model\NttDataFileManagement.Common.Model.csproj", "{ACBF198F-44C8-4BBA-AEA7-1C5666CF985C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttDataFileManagament.DataAccess.Repository", "NttDataFileManagement.DataAccess.Repository\NttDataFileManagament.DataAccess.Repository.csproj", "{1CF303B7-0FFC-4E0E-8C24-AE3D13CB69B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttDataFileManagement.DataAccess.Repository", "NttDataFileManagement.DataAccess.Repository\NttDataFileManagement.DataAccess.Repository.csproj", "{1CF303B7-0FFC-4E0E-8C24-AE3D13CB69B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
