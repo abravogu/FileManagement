@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Tier", "1 - Presentation Tier", "{2AC5095F-B737-475E-AF7F-3C206AF6AC88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Tier", "2 - Business Tier", "{6297A786-18B3-47CE-9BF2-99EB759CDBAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DataAccess Tier", "3 - DataAccess Tier", "{0F7460CF-6745-4043-8D01-1C393F1CDE8B}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5936B6A0-C77F-4DBB-89E6-3FB94ADC37CB}
+	EndGlobalSection
+EndGlobal
