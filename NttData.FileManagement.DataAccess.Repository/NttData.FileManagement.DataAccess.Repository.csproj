@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D83297A6-AB5F-478E-B41E-CD96B7ACC340}</ProjectGuid>
+    <ProjectGuid>{1445BD26-E29D-46B3-834F-3B5E2EFFE19C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NttDataFileManagement.Business.Logic</RootNamespace>
-    <AssemblyName>NttDataFileManagement.Business.Logic</AssemblyName>
+    <RootNamespace>NttData.FileManagement.DataAccess.Repository</RootNamespace>
+    <AssemblyName>NttData.FileManagement.DataAccess.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,14 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\IStudentRepository.cs" />
+    <Compile Include="Implementations\StudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NttDataFileManagement.Common.Model\NttDataFileManagement.Common.Model.csproj">
-      <Project>{acbf198f-44c8-4bba-aea7-1c5666cf985c}</Project>
-      <Name>NttDataFileManagement.Common.Model</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
+      <Project>{067b3ac2-5b4f-4eac-8715-ed63dec83a1f}</Project>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

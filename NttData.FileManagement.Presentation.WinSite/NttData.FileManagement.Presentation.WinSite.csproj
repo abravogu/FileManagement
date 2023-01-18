@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1BA6BD3-EA7E-483A-AB77-9CCC83570390}</ProjectGuid>
+    <ProjectGuid>{F2275F11-29F9-4621-A5FD-AACAA1AA116E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>NttData.FileManagement.Presentation.WinSite</RootNamespace>
     <AssemblyName>NttData.FileManagement.Presentation.WinSite</AssemblyName>
@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,14 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -77,13 +81,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NttDataFileManagement.Business.Logic\NttDataFileManagement.Business.Logic.csproj">
-      <Project>{d83297a6-ab5f-478e-b41e-cd96b7acc340}</Project>
-      <Name>NttDataFileManagement.Business.Logic</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Business.Logic\NttData.FileManagement.Business.Logic.csproj">
+      <Project>{191204b9-403e-406d-8271-1e88d34c812d}</Project>
+      <Name>NttData.FileManagement.Business.Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NttDataFileManagement.Common.Model\NttDataFileManagement.Common.Model.csproj">
-      <Project>{acbf198f-44c8-4bba-aea7-1c5666cf985c}</Project>
-      <Name>NttDataFileManagement.Common.Model</Name>
+    <ProjectReference Include="..\NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj">
+      <Project>{067b3ac2-5b4f-4eac-8715-ed63dec83a1f}</Project>
+      <Name>NttData.FileManagement.Common.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
